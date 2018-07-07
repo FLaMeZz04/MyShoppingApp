@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Shopping App</string>
+    <string name="my_shopping_app">My Shopping App</string>
+    <string name="not_now_start_using_app">Not Now Start Using App</string>
+    <string name="register_now">Register Now</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="from_shopping">FROM SHOPPING</string>
+    <string name="one_step_away">ONE STEP AWAY</string>
+    <string name="title_activity_shopping_cart">ShoppingCartActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

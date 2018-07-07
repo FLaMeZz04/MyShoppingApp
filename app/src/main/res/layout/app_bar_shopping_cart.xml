@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShoppingCartActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+<android.support.v7.widget.Toolbar
+    android:id="@+id/Toolbar"
+    style="@style/AppTheme.AppBarOverlay"
+    android:background="#8f384149"
+    android:layout_width="match_parent"
+    android:layout_height="56dp">
+
+    <TextView
+        android:layout_marginTop="-14sp"
+        android:text="My Shopping App"
+        android:textSize="20sp"
+        android:fontFamily="@font/volkron"
+        android:textColor="#fff"
+        android:textStyle="bold"
+        android:textAlignment="textStart"
+        android:layout_width="400sp"
+        android:layout_height="40sp" />
+</android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_shopping_cart" />
+
+</android.support.design.widget.CoordinatorLayout>
